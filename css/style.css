@@ -75,9 +75,7 @@ body {
   font-size: 10px;
   font-weight: 200;
 }
-.card {
-  box-shadow: 0px 0px 5px 2px #ff9292;
-}
+
 .card-body h5 {
   font-size: 20px;
   font-family: Lora;
@@ -86,6 +84,7 @@ body {
 .card-body .card-text {
   font-size: 14;
   font-weight: 200;
+  line-height: 20px;
 }
 .figure-img {
   position: relative;
@@ -143,4 +142,94 @@ body {
   background-color: #f7402a;
   color: white;
   padding: 20px;
+}
+
+/* breadcrumb */
+.breadcrumb .breadcrumb-item {
+  color: white;
+  font-size: 20px;
+  font-family: Lora;
+}
+.breadcrumb .breadcrumb-item a {
+  color: #ff9292;
+}
+.figure-caption p {
+  font-family: Arial;
+  font-size: 22px;
+  color: #b5b2b2;
+  margin-top: 13px;
+}
+.ct-bread {
+  background-color: #452473;
+  margin-top: 80px;
+  padding: 50px 0 30px 0;
+}
+
+/* single product */
+.figure span {
+  font-family: Lora;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.single-product {
+  background-color: #452473;
+  padding: 10px 0 50px 0;
+}
+.description p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 22px;
+}
+.description hr {
+  color: white;
+  width: 350px;
+  margin-bottom: 2px;
+}
+.description h3 {
+  font-size: 28px;
+  font-family: Lora;
+  color: #ff9292;
+  margin-bottom: 15px;
+}
+
+.box {
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.box img {
+  padding: 23px 0 18px 0;
+}
+.description-product {
+  background-color: #452473;
+  height: 300px;
+}
+
+.description-product .tab-content {
+  background-color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0 4px 15px rgba(255, 146, 146, 0.5);
+}
+.description-product .tab-content .tab-pane {
+  font-weight: 200;
+  color: #868686;
+  line-height: 28px;
+  font-size: 16px;
+  height: 250px;
+  overflow-y: scroll;
+}
+.nav-tabs .nav-link {
+  color: #b5b2b2;
+  font-weight: 200;
+  font-size: 18px;
+  background-color: #ececec;
+}
+.nav-tabs #review-tab {
+  margin-left: -22px;
+}
+
+.review-book {
+  margin-top: 150px;
 }
