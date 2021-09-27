@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,119 +18,107 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
     <title>Ruang Baca</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- nav -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top border-bottom">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="images/Icon Ruang Baca.png" class="w-90" alt="" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/Icon Ruang Baca.png" class="w-90" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Category</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Category</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Lihat Cerita
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Pembaca</a></li>
-                <li><a class="dropdown-item" href="#">Penulis</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Q&A Ruang Baca</a></li>
-              </ul>
-            </li>
-            <li class="na-item"></li>
-          </ul>
-          <form class="d-none d-sm-block col-lg-auto mb-3 mb-lg-0 me-lg-3 ms-0">
-            <input type="search" class="form-control" placeholder="Search..." />
-          </form>
-          <div class="text-start text-sm-start ms-3 d-none d-sm-block">
-            <a href="#" class="nav-link"><img src="images/Folder Baru/Component 1 – 4.png" style="width: 50px" /></a>
-          </div>
-          <div class="dropdown text-start ms-3 d-none d-sm-block">
-            <a
-              href="#"
-              class="d-block link-dark text-decoration-none dropdown-toggle"
-              id="dropdownUser1"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <img src="images/Folder Baru/profile.png" alt="mdo" width="60" height="60" class="rounded-circle" />
-            </a>
-            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-              <li><a class="dropdown-item" href="#">My Book.</a></li>
-              <li><a class="dropdown-item" href="#">Settings</a></li>
-              <li><a class="dropdown-item" href="#">Profile</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Sign out</a></li>
-            </ul>
-          </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Pembaca</a></li>
+                            <li><a class="dropdown-item" href="#">Penulis</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#">Q&A Ruang Baca</a></li>
+                        </ul>
+                    </li>
+                    <li class="na-item"></li>
+                </ul>
+                <form class="d-none d-sm-block col-lg-auto mb-3 mb-lg-0 me-lg-3 ms-0">
+                    <input type="search" class="form-control" placeholder="Search..." />
+                </form>
+                <div class="text-start text-sm-start ms-3 d-none d-sm-block">
+                    <a href="#" class="nav-link"><img src="images/Folder Baru/Component 1 – 4.png" style="width: 50px" /></a>
+                </div>
+                <div class="dropdown text-start ms-3 d-none d-sm-block">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="images/Folder Baru/profile.png" alt="mdo" width="60" height="60" class="rounded-circle" />
+                    </a>
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">My Book.</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </nav>
 
     <!-- Breadcrumb -->
     <section class="ct-bread">
-      <div class="container">
-        <nav>
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item">Catgory</li>
-            <li class="breadcrumb-item active">Novel</li>
-          </ol>
-        </nav>
-      </div>
+        <div class="container">
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item">Catgory</li>
+                    <li class="breadcrumb-item active">Novel</li>
+                </ol>
+            </nav>
+        </div>
     </section>
 
     <!-- single product -->
 
     <section class="single-product">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-8 col-sm-6">
-            <figure class="figure">
-              <img src="images/single-product/Desain tanpa judul (4).png" class="figure-img img-fluid" />
-              <figcaption class="figure-caption text-center">
-                <img src="images/icons/Group 7.png" alt="" /><span>(5,800)</span>
-                <p>IDR 35.000</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-4 col-10 col-sm-8 description mb-4">
-            <h3>Sebuah Usaha Melupakan</h3>
-            <p>Penerbit: Media Kita</p>
-            <hr />
-            <p>Penulis: Boy Candra</p>
-            <hr />
-            <p>Ukuran: 13 x 19 cm</p>
-            <hr />
-            <p>Tebal: 150 Halaman</p>
-            <hr />
-            <p style="font-size: 20px">Diterbitkan: Rabu, 18 Januari 2019</p>
-            <div class="row">
-              <div class="col">
-                <img src="images/icons/Icon awesome-eye.png" alt="" /><span
-                  style="font-family: Arial; font-size: 20px; color: white; margin-left: 5px"
-                  class="pt-2"
-                  >567k</span
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-8 col-sm-6">
+                    <figure class="figure">
+                        <img src="images/single-product/Desain tanpa judul (4).png" class="figure-img img-fluid" />
+                        <figcaption class="figure-caption text-center">
+                            <img src="images/icons/Group 7.png" alt="" /><span>(5,800)</span>
+                            <p>IDR 35.000</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4 col-10 col-sm-8 description mb-4">
+                    <h3>Sebuah Usaha Melupakan</h3>
+                    <p>Penerbit: Media Kita</p>
+                    <hr />
+                    <p>Penulis: Boy Candra</p>
+                    <hr />
+                    <p>Ukuran: 13 x 19 cm</p>
+                    <hr />
+                    <p>Tebal: 150 Halaman</p>
+                    <hr />
+                    <p style="font-size: 20px">Diterbitkan: Rabu, 18 Januari 2019</p>
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/icons/Icon awesome-eye.png" alt="" /><span style="font-family: Arial; font-size: 20px; color: white; margin-left: 5px" class="pt-2">567k</span
                 >
               </div>
               <div class="col">
@@ -259,37 +248,37 @@
               </div>
               <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
                 <div class="row">
-                  <div class="col-1 me-2">
-                    <img src="images/review/amir-seilsepour-5vg_SarQimA-unsplash.png" alt="" />
+                  <div class="col-sm-2 col-1 me-2">
+                    <img src="images/review/amir-seilsepour-5vg_SarQimA-unsplash.png" class="d-none d-sm-block" />
                   </div>
-                  <div class="col">
+                  <div class="col-sm-8 col">
                     <h5 class="mb-0 mt-2">Hilmi Razib Yusuf</h5>
                     <p style="font-size: 14px">Bukunya bagus, cerinta menarik bikin penasaran membaca sampai selesai</p>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-1 me-2">
-                    <img src="images/review/amir-seilsepour-5vg_SarQimA-unsplash.png" alt="" />
+                  <div class="col-sm-2 col-1 me-2">
+                    <img src="images/review/amir-seilsepour-5vg_SarQimA-unsplash.png" class="d-none d-sm-block" />
                   </div>
-                  <div class="col">
+                  <div class="col-sm-8 col">
                     <h5 class="mb-0 mt-2">Hilmi Razib Yusuf</h5>
                     <p style="font-size: 14px">Bukunya bagus, cerinta menarik bikin penasaran membaca sampai selesai</p>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-1 me-2">
-                    <img src="images/review/amir-seilsepour-5vg_SarQimA-unsplash.png" alt="" />
+                  <div class="col-sm-2 col-1 me-2">
+                    <img src="images/review/amir-seilsepour-5vg_SarQimA-unsplash.png" class="d-none d-sm-block" />
                   </div>
-                  <div class="col">
+                  <div class="col-sm-8 col">
                     <h5 class="mb-0 mt-2">Hilmi Razib Yusuf</h5>
                     <p style="font-size: 14px">Bukunya bagus, cerinta menarik bikin penasaran membaca sampai selesai</p>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-1 me-2">
-                    <img src="images/review/amir-seilsepour-5vg_SarQimA-unsplash.png" alt="" />
+                  <div class="col-sm-2 col-1 me-2">
+                    <img src="images/review/amir-seilsepour-5vg_SarQimA-unsplash.png" class="d-none d-sm-block" />
                   </div>
-                  <div class="col">
+                  <div class="col-sm-8 col">
                     <h5 class="mb-0 mt-2">Hilmi Razib Yusuf</h5>
                     <p style="font-size: 14px">Bukunya bagus, cerinta menarik bikin penasaran membaca sampai selesai</p>
                   </div>
@@ -308,10 +297,10 @@
           <div class="col-6 col-sm-6">
             <div class="card mb-3" style="max-width: 540px">
               <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="images/Folder Baru/Buku1.png" class="img-fluid rounded-start" alt="..." />
+                <div class="col-lg-4">
+                  <img src="images/Folder Baru/Buku1.png" class="img-fluid rounded-start d-none d-lg-block" alt="..." />
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-12 col-lg-8">
                   <div class="card-body">
                     <h5 class="card-title">The Andromeda Boy</h5>
                     <p style="margin-top: -10px; font-size: 16px; font-weight: bold; margin-bottom: 5px">Marcelina Anderson</p>
@@ -328,10 +317,10 @@
           <div class="col-6 col-sm-6">
             <div class="card mb-3" style="max-width: 540px">
               <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="images/Folder Baru/Buku.png" class="img-fluid rounded-start" alt="..." />
+                <div class="col-lg-4">
+                  <img src="images/Folder Baru/Buku.png" class="img-fluid rounded-start d-none d-lg-block" alt="..." />
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-12 col-lg-8">
                   <div class="card-body">
                     <h5 class="card-title">The Andromeda Boy</h5>
                     <p style="margin-top: -10px; font-size: 16px; font-weight: bold; margin-bottom: 5px">Marcelina Anderson</p>
@@ -350,10 +339,10 @@
           <div class="col-6 col-sm-6">
             <div class="card mb-3" style="max-width: 540px">
               <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="images/Folder Baru/Buku1.png" class="img-fluid rounded-start" alt="..." />
+                <div class="col-lg-4">
+                  <img src="images/Folder Baru/Buku1.png" class="img-fluid rounded-start d-none d-lg-block" alt="..." />
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-12 col-lg-8">
                   <div class="card-body">
                     <h5 class="card-title">The Andromeda Boy</h5>
                     <p style="margin-top: -10px; font-size: 16px; font-weight: bold; margin-bottom: 5px">Marcelina Anderson</p>
@@ -370,10 +359,10 @@
           <div class="col-6 col-sm-6">
             <div class="card mb-3" style="max-width: 540px">
               <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="images/Folder Baru/Buku.png" class="img-fluid rounded-start" alt="..." />
+                <div class="col-lg-4">
+                  <img src="images/Folder Baru/Buku.png" class="img-fluid rounded-start d-none d-lg-block" alt="..." />
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-12 col-lg-8">
                   <div class="card-body">
                     <h5 class="card-title">The Andromeda Boy</h5>
                     <p style="margin-top: -10px; font-size: 16px; font-weight: bold; margin-bottom: 5px">Marcelina Anderson</p>
